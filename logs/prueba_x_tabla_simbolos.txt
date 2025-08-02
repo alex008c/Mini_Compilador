@@ -1,0 +1,5 @@
+TABLA DE SIMBOLOS
+Nombre		Tipo		Valor		Linea
+----------------------------------------
+x		variable		indefinido		2
+t0		temporal		indefinido		-

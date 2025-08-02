@@ -1,0 +1,13 @@
+// Ejemplo simple para probar
+var a = 5;
+var b = 3;
+var suma = a + b;
+
+if (suma > 7) {
+    suma = suma * 2;
+}
+
+var contador = 2;
+while (contador > 0) {
+    contador = contador - 1;
+}

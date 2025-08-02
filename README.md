@@ -1,7 +1,5 @@
-# minilang
-Semana 7 | Compiladores | minilang
 # Mini Compilador + Intérprete - MiniLang
-
+Semana 7 | Compiladores | minilang
 ## Descripción
 Este es un compilador completo para el lenguaje de programación "MiniLang" que no solo traduce código fuente a código intermedio de tres direcciones, sino que también **ejecuta el programa** y muestra los resultados. Incluye **modo interactivo** y **ejecutables portables**.
 

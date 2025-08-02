@@ -1,0 +1,4 @@
+SYMBOL TABLE
+Name		Type		Value		Line
+----------------------------------------
+numero		variable		undefined		2

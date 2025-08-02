@@ -1,0 +1,5 @@
+CODIGO INTERMEDIO (Codigo de Tres Direcciones)
+
+1.	x = 0
+2.	t0 = 2 + 4
+3.	x = t0

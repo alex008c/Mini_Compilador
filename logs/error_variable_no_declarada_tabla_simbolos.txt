@@ -1,0 +1,5 @@
+SYMBOL TABLE
+Name		Type		Value		Line
+----------------------------------------
+x		variable		undefined		2
+y		variable		undefined		3

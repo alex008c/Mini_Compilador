@@ -1,0 +1,38 @@
+{
+  "name": "mini-compilador-minilang",
+  "version": "1.0.0",
+  "description": "Mini compilador para el lenguaje MiniLang - Proyecto universitario",
+  "main": "compiler.js",
+  "bin": {
+    "mini-compilador": "./compiler.js",
+    "mini-compilador-interactivo": "./interactivo.js"
+  },
+  "scripts": {
+    "compile": "node compiler.js",
+    "build": "pkg . --out-path=./dist",
+    "build-win": "pkg . --targets=node18-win-x64 --out-path=./dist",
+    "build-linux": "pkg . --targets=node18-linux-x64 --out-path=./dist",
+    "build-mac": "pkg . --targets=node18-macos-x64 --out-path=./dist",
+    "build-interactivo": "pkg interactivo.js --targets=node18-win-x64 --output=./dist/mini-compilador-interactivo.exe",
+    "build-all": "pkg . --targets=node18-win-x64,node18-linux-x64,node18-macos-x64 --out-path=./dist",
+    "test-simple": "node compiler.js ejemplos/simple.minilang"
+  },
+  "pkg": {
+    "assets": [
+      "ejemplos/**/*"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "compilador",
+    "analizador-lexico",
+    "analizador-sintactico",
+    "codigo-intermedio",
+    "universidad"
+  ],
+  "author": "Estudiante",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
